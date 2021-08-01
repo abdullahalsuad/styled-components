@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 
-function App() {
-  return (
-    <div >
-        hello
-    </div>
-  );
+import Tutorial from './components/Tutorial';
+
+export default function App() {
+    return (
+        <>
+            <Tutorial /> 
+        </>
+    );
 }
-
-export default App;
