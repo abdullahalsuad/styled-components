@@ -2,12 +2,18 @@ import nerdImage from '../ass/img/illustration.png';
 import Button from './Button';
 import {Tag,H1,P,Image} from './styles/Element.styled'
 import {CardContainer, ContentContainer,ButtonContainer} from './styles/container.styles'
+import { StyledTitle } from './styles/Custom.styled';
+
+// import {Tag,H1,P,Image,CardContainer, ContentContainer,ButtonContainer} from './styles/Light.styled'
+
 export default function Card() {
     return (
         <CardContainer>
             <ContentContainer><></>
-                <Tag color="#4361ee">EXCLUSIVE</Tag>
-                <H1>React Styled Components</H1>
+                <Tag>EXCLUSIVE</Tag>
+                <H1>
+                    <StyledTitle text="React Styled Components" color="white"/> 
+                </H1>
                 <P>
                     Exclusive React JS Tutorial on Styled Components where you will learn why we
                     need this & how to use it.
